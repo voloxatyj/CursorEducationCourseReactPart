@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/CursorEducationCourseReactPart/static/js/main.8a6263d5.chunk.js",
+    "main.js.map": "/CursorEducationCourseReactPart/static/js/main.8a6263d5.chunk.js.map",
+    "runtime-main.js": "/CursorEducationCourseReactPart/static/js/runtime-main.e8e7de3c.js",
+    "runtime-main.js.map": "/CursorEducationCourseReactPart/static/js/runtime-main.e8e7de3c.js.map",
+    "static/js/2.4666e5c1.chunk.js": "/CursorEducationCourseReactPart/static/js/2.4666e5c1.chunk.js",
+    "static/js/2.4666e5c1.chunk.js.map": "/CursorEducationCourseReactPart/static/js/2.4666e5c1.chunk.js.map",
+    "index.html": "/CursorEducationCourseReactPart/index.html",
+    "precache-manifest.149f87d4622375e6934e2b8d14183e65.js": "/CursorEducationCourseReactPart/precache-manifest.149f87d4622375e6934e2b8d14183e65.js",
+    "service-worker.js": "/CursorEducationCourseReactPart/service-worker.js",
+    "static/js/2.4666e5c1.chunk.js.LICENSE.txt": "/CursorEducationCourseReactPart/static/js/2.4666e5c1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8e7de3c.js",
+    "static/js/2.4666e5c1.chunk.js",
+    "static/js/main.8a6263d5.chunk.js"
+  ]
+}
