@@ -32,10 +32,9 @@ export const Post = ({ author, content, image, date }) => {
 			height:10vh;
 		}
 		.arrow {
-			position: absolute;
-    	left: 91%;
     	color: grey;
-    	top: 24%;
+			margin-bottom: 2.5rem;
+    	margin-left: 30rem;
 		}
 		.main {
 			display: grid;
