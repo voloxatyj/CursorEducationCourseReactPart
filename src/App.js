@@ -9,8 +9,8 @@ import { Drawer, CssBaseline, AppBar, Toolbar, List, Typography, Divider, IconBu
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import CheckCircleOutlineOutlinedIcon from '@material-ui/icons/CheckCircleOutlineOutlined';
-import ReportOffOutlinedIcon from '@material-ui/icons/ReportOffOutlined';
+// import CheckCircleOutlineOutlinedIcon from '@material-ui/icons/CheckCircleOutlineOutlined';
+// import ReportOffOutlinedIcon from '@material-ui/icons/ReportOffOutlined';
 import ExitToAppOutlinedIcon from '@material-ui/icons/ExitToAppOutlined';
 
 const drawerWidth = 240;
@@ -131,14 +131,16 @@ export const App = () => {
         </div>
         <Divider />
         <List>
-          {['15-hw-ReactJS.Основи'].map((text, index) => (
-            <Link to='/basics' key={text} className={classes.icons}>
+            <Link to='/basics' className={classes.icons}>
               <ListItem button>
-                  <ListItemIcon>{index % 2 !== 0 ? <CheckCircleOutlineOutlinedIcon style={{ color: "green" }}/> : <ReportOffOutlinedIcon  style={{color:"red"}}/>}</ListItemIcon>
-                <ListItemText primary={text} />
+                <ListItemText primary={'15-hw-ReactJS.Основи'} />
               </ListItem>
             </Link>
-          ))}
+            <Link to='/contracts' className={classes.icons}>
+              <ListItem button>
+                <ListItemText primary={'16-hw-ReactJS.Класові компоненти'} />
+              </ListItem>
+            </Link>
         </List>
         <Divider />
       </Drawer>

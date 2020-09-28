@@ -83,7 +83,7 @@ export const Post = ({ author, content, image, date }) => {
 			<div className="div">
 				<div className="card">
 					<div className="head">
-					<img alt="avatar" src={author.photo} className="image" />
+						<img alt="avatar" src={author.photo} className="image" />
 							<div className="main">
 								<div className="content">
 									<h2 style={{paddingTop: '.5rem'}}>{author.name}</h2>
