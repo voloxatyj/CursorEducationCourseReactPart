@@ -141,6 +141,11 @@ export const App = () => {
                 <ListItemText primary={'16-hw-ReactJS.Класові компоненти'} />
               </ListItem>
             </Link>
+            <Link to='/timer' className={classes.icons}>
+              <ListItem button>
+                <ListItemText primary={'17-hw-ReactJS. Методи життєвого циклу. Хуки'} />
+              </ListItem>
+            </Link>
         </List>
         <Divider />
       </Drawer>
