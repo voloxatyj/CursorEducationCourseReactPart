@@ -15,6 +15,13 @@ import ExitToAppOutlinedIcon from '@material-ui/icons/ExitToAppOutlined';
 
 const drawerWidth = 240;
 
+const myHomeworks = [
+  { title: '15-hw-ReactJS.Основи', path: '/basics' },
+  { title: '16-hw-ReactJS.Класові компоненти', path: '/contracts' },
+  { title: '17-hw-ReactJS. Методи життєвого циклу. Хуки', path: '/timer' },
+  { title: 'ReactJS.Підходи до стилізації.StyledComponents.Animations', path: '/authform' }
+]
+	
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex'
@@ -131,12 +138,14 @@ export const App = () => {
         </div>
         <Divider />
         <List>
-            <Link to='/basics' className={classes.icons}>
+          {myHomeworks.map((item,index) => 
+            <Link key={index} to={item.path} className={classes.icons}>
               <ListItem button>
-                <ListItemText primary={'15-hw-ReactJS.Основи'} />
+                <ListItemText primary={item.title} />
               </ListItem>
             </Link>
-            <Link to='/contracts' className={classes.icons}>
+            )}
+            {/* <Link to='/contracts' className={classes.icons}>
               <ListItem button>
                 <ListItemText primary={'16-hw-ReactJS.Класові компоненти'} />
               </ListItem>
@@ -145,7 +154,7 @@ export const App = () => {
               <ListItem button>
                 <ListItemText primary={'17-hw-ReactJS. Методи життєвого циклу. Хуки'} />
               </ListItem>
-            </Link>
+            </Link> */}
         </List>
         <Divider />
       </Drawer>

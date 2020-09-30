@@ -34,19 +34,21 @@ export const Post = ({ author, content, image, date }) => {
 		.arrow {
     	color: grey;
 			margin-bottom: 2.5rem;
-    	margin-left: 30rem;
+    	margin-left: 27rem;
 		}
 		.main {
 			display: grid;
 			grid-template-rows: 35px 35px;
-			margin-bottom: 2rem;
-    	padding: .5rem;
+			padding: 1rem;
+    	grid-gap: 1.5rem;
+    	padding-left: 1rem;
 		},
 		.content {
 			display: inline-flex;
 			align-items: center;
 			color: white;
 			padding-top: 1.5rem;
+			width: 100%;
 			& span {
 				color:grey;
 			}
