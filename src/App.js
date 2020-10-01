@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import clsx from 'clsx';
+import { Card } from './components/Card'
 /* Styles */
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 /* Material-UI */
 import { Drawer, CssBaseline, AppBar, Toolbar, List, Typography, Divider, IconButton, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
 /* ICONS */
 import MenuIcon from '@material-ui/icons/Menu';
+import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-// import CheckCircleOutlineOutlinedIcon from '@material-ui/icons/CheckCircleOutlineOutlined';
-// import ReportOffOutlinedIcon from '@material-ui/icons/ReportOffOutlined';
 import ExitToAppOutlinedIcon from '@material-ui/icons/ExitToAppOutlined';
 
 const drawerWidth = 240;
@@ -87,7 +87,16 @@ export const App = () => {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
-
+  const [user, setUser] = React.useState(false)
+  
+  const userInfo = {
+    fullName: 'OstapMedynskyy',
+    email: 'ostapmedunskij@gmail.com',
+    repo: 'https://github.com/voloxatyj?tab=repositories',
+    date: '2020-10-1',
+    img: '/CursorEducationCourseReactPart/static/media/avatar.3d95fa11.png',
+    load: user
+  }
   const handleDrawerOpen = () => {
     setOpen(true);
   };
@@ -97,6 +106,7 @@ export const App = () => {
   };
 
   return (
+    <>
     <div className={classes.root}>
       <CssBaseline />
       <AppBar
@@ -113,14 +123,27 @@ export const App = () => {
             edge="start"
             className={clsx(classes.menuButton, open && classes.hide)}
           >
-            <MenuIcon />
+            <MenuIcon style={{ fontSize: "2rem" }}/>
           </IconButton>
           <Typography variant="h6" noWrap>
             Introducing React
           </Typography>
-          <ExitToAppOutlinedIcon style={{float:"right"}}/>
+          <div className="icons" 
+          style={{ display: "inline-flex", justifyContent: "space-between",
+          minWidth: "5rem", alignItems: "center"}}>
+            <IconButton
+              color="inherit"
+              aria-label="open user"
+              onClick={()=>setUser(!user)}
+              edge="start"
+            >
+              <AccountCircleOutlinedIcon style={{ fontSize: "2rem" }} />
+            </IconButton>
+            <Link to='/authform'>
+              <ExitToAppOutlinedIcon style={{ fontSize: "2rem", color: "white" }}/>
+            </Link>
+          </div>
         </Toolbar>
-        
       </AppBar>
       <Drawer
         className={classes.drawer}
@@ -149,6 +172,8 @@ export const App = () => {
         <Divider />
       </Drawer>
     </div>
+    <Card props={userInfo} />
+  </>
   );
 }
 
