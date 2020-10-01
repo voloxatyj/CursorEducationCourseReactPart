@@ -63,7 +63,7 @@ export default function InfiniteTimer ({ time }) {
 		return () => {
 			clearInterval(interval);
 		}
-	}, [completed, step, hoursLeftOutput, minutesLeftOutput, secondsLeftOutput, hours, minutes, seconds])
+	}, [completed, step, timer, time, hoursLeftOutput, minutesLeftOutput, secondsLeftOutput, hours, minutes, seconds])
 
 	const onTimeStart = () => {
 		setCompleted(true)
@@ -90,7 +90,7 @@ export default function InfiniteTimer ({ time }) {
 					<div className="col-auto">
 						<label className="sr-only" htmlFor="inlineFormInput">Name</label>
 						<input onChange={event => setTimer(event.target.value)} 
-							type="text" className="form-control mb-2" id="inlineFormInput" placeholder="Time in ms" />
+							type="number" className="form-control mb-2" id="inlineFormInput" placeholder="Time in ms" />
 					</div>
 						<div className="btn-group" role="group" aria-label="Basic example">
 							<button type="button" className="btn btn-success" onClick={() => onTimeStart()}>Start</button>

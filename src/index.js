@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Post } from './components/Post'
 import Contracts from './components/Contracts'
-import { AuthForm } from './components/AuthForm'
+import AuthForm from './components/AuthForm'
 import InfiniteTimer from './components/InfiniteTimer'
 
 const ANAKIN_IMAGE = "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Anakin-Jedi.jpg/220px-Anakin-Jedi.jpg";

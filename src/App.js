@@ -19,7 +19,7 @@ const myHomeworks = [
   { title: '15-hw-ReactJS.Основи', path: '/basics' },
   { title: '16-hw-ReactJS.Класові компоненти', path: '/contracts' },
   { title: '17-hw-ReactJS. Методи життєвого циклу. Хуки', path: '/timer' },
-  { title: 'ReactJS.Підходи до стилізації.StyledComponents.Animations', path: '/authform' }
+  { title: '18-hw-ReactJS.Підходи до стилізації. StyledComponents. Animations', path: '/authform' }
 ]
 	
 const useStyles = makeStyles((theme) => ({
@@ -145,16 +145,6 @@ export const App = () => {
               </ListItem>
             </Link>
             )}
-            {/* <Link to='/contracts' className={classes.icons}>
-              <ListItem button>
-                <ListItemText primary={'16-hw-ReactJS.Класові компоненти'} />
-              </ListItem>
-            </Link>
-            <Link to='/timer' className={classes.icons}>
-              <ListItem button>
-                <ListItemText primary={'17-hw-ReactJS. Методи життєвого циклу. Хуки'} />
-              </ListItem>
-            </Link> */}
         </List>
         <Divider />
       </Drawer>
