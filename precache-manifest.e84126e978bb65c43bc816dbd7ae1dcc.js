@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09d7a0f449f9982f26091f82a2ea4c05",
+    "revision": "fd04c0b1e94f21dcb0551dd1cfcd53eb",
     "url": "/CursorEducationCourseReactPart/index.html"
   },
   {
-    "revision": "185eb3a8e612899b413a",
+    "revision": "19fbcb107685296babc1",
     "url": "/CursorEducationCourseReactPart/static/css/main.2bf628a9.chunk.css"
   },
   {
-    "revision": "f95450aeb80efa0b8461",
-    "url": "/CursorEducationCourseReactPart/static/js/2.f72ef22e.chunk.js"
+    "revision": "d48bc6251a5e9ce0b33b",
+    "url": "/CursorEducationCourseReactPart/static/js/2.352761fd.chunk.js"
   },
   {
-    "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/CursorEducationCourseReactPart/static/js/2.f72ef22e.chunk.js.LICENSE.txt"
+    "revision": "556d72da1c19c1e88e2917fa6505d7f0",
+    "url": "/CursorEducationCourseReactPart/static/js/2.352761fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "185eb3a8e612899b413a",
-    "url": "/CursorEducationCourseReactPart/static/js/main.79ec0270.chunk.js"
+    "revision": "19fbcb107685296babc1",
+    "url": "/CursorEducationCourseReactPart/static/js/main.66883106.chunk.js"
   },
   {
     "revision": "1f4efe0ce3b51f746f4d",
