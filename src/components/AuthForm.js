@@ -102,7 +102,6 @@ export default class AuthForm extends Component {
 					<div className="forms-container">
 						<div className="signin-signup">
 							<form action="#" className="sign-in-form" onSubmit={(event) => {
-								console.log(this.state.email)
 								if (this.isEmpty(this.state.email) || this.isEmpty(this.state.password)) {
 									this.setState({
 										errors: {
@@ -110,7 +109,6 @@ export default class AuthForm extends Component {
 										}
 									})
 								} else {
-									console.log(this.state.email)
 									this.checkCredentials(event)
 								}
 							}}>
