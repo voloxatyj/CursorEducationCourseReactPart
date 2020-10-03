@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import moment from 'moment'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import { addPost } from '../redux/actions/userActions'
 
 export const Modal = () => {
 	const [name, setName] = useState('')
 	const [nickname, setNickname] = useState('')
 	const [content, setContent] = useState('')
+	const history = useHistory()
 	const modal = useSelector(state=>state.ui.modal)
 	const dispatch = useDispatch()
 	const date = moment().format("YYYY-MM-DD")
@@ -59,7 +60,10 @@ export const Modal = () => {
 							<button
 							 	type="button"
 							 	className="btn btn-primary"
-									onClick={() => dispatch(addPost({ photo, name, avatar, nickname, date, content}))}
+									onClick={() => {
+										dispatch(addPost({ photo, name, avatar, nickname, date, content}))
+										history.push('/redux')
+									}}
 							 	>Save changes</button>
 						</div>
 					</form>
