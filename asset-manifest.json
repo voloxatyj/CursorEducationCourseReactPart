@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CursorEducationCourseReactPart/static/css/main.2bf628a9.chunk.css",
-    "main.js": "/CursorEducationCourseReactPart/static/js/main.205e2f50.chunk.js",
-    "main.js.map": "/CursorEducationCourseReactPart/static/js/main.205e2f50.chunk.js.map",
+    "main.js": "/CursorEducationCourseReactPart/static/js/main.aa1afcd8.chunk.js",
+    "main.js.map": "/CursorEducationCourseReactPart/static/js/main.aa1afcd8.chunk.js.map",
     "runtime-main.js": "/CursorEducationCourseReactPart/static/js/runtime-main.e8e7de3c.js",
     "runtime-main.js.map": "/CursorEducationCourseReactPart/static/js/runtime-main.e8e7de3c.js.map",
     "static/js/2.d078dce0.chunk.js": "/CursorEducationCourseReactPart/static/js/2.d078dce0.chunk.js",
     "static/js/2.d078dce0.chunk.js.map": "/CursorEducationCourseReactPart/static/js/2.d078dce0.chunk.js.map",
     "index.html": "/CursorEducationCourseReactPart/index.html",
-    "precache-manifest.203665e32508454c507037dddb8a412c.js": "/CursorEducationCourseReactPart/precache-manifest.203665e32508454c507037dddb8a412c.js",
+    "precache-manifest.020d5acd492c681184daa66d0fcfcb01.js": "/CursorEducationCourseReactPart/precache-manifest.020d5acd492c681184daa66d0fcfcb01.js",
     "service-worker.js": "/CursorEducationCourseReactPart/service-worker.js",
     "static/css/main.2bf628a9.chunk.css.map": "/CursorEducationCourseReactPart/static/css/main.2bf628a9.chunk.css.map",
     "static/js/2.d078dce0.chunk.js.LICENSE.txt": "/CursorEducationCourseReactPart/static/js/2.d078dce0.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.e8e7de3c.js",
     "static/js/2.d078dce0.chunk.js",
     "static/css/main.2bf628a9.chunk.css",
-    "static/js/main.205e2f50.chunk.js"
+    "static/js/main.aa1afcd8.chunk.js"
   ]
 }
