@@ -29,7 +29,10 @@ export const Modal = () => {
 								className="close" 
 								data-dismiss="modal" 
 								aria-label="Close"
-								onClick={()=>dispatch({ type: 'CLOSE_MODAL'})}
+								onClick={()=> {
+									dispatch({ type: 'CLOSE_MODAL'})
+									history.push('/redux')
+								}}
 							>
 								<span aria-hidden="true">&times;</span>
 							</button>
@@ -55,7 +58,10 @@ export const Modal = () => {
 								type="button" 
 								className="btn btn-secondary" 
 								data-dismiss="modal"
-								onClick={() => dispatch({ type: 'CLOSE_MODAL' })}
+								onClick={() => {
+									dispatch({ type: 'CLOSE_MODAL' })
+									history.push('/redux')
+								}}
 								>Close</button>
 							<button
 							 	type="button"
