@@ -10,6 +10,9 @@ export const PostReduxContainer = styled.div`
 	grid-auto-columns: 1fr;
   justify-items: center;
 }
+.text {
+	max-width: 80%;
+}
 .main {
 	display: inline-grid;
 }

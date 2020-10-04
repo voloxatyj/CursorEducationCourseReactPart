@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import { useDispatch } from 'react-redux'
 import clsx from 'clsx';
 import { Card } from './components/Card'
 /* Styles */
@@ -13,7 +12,6 @@ import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined'
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ExitToAppOutlinedIcon from '@material-ui/icons/ExitToAppOutlined';
-import AddCircleOutlineRoundedIcon from '@material-ui/icons/AddCircleOutlineRounded';
 
 const drawerWidth = 240;
 
