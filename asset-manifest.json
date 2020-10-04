@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/CursorEducationCourseReactPart/static/css/main.2bf628a9.chunk.css",
-    "main.js": "/CursorEducationCourseReactPart/static/js/main.72f9cd61.chunk.js",
-    "main.js.map": "/CursorEducationCourseReactPart/static/js/main.72f9cd61.chunk.js.map",
+    "main.js": "/CursorEducationCourseReactPart/static/js/main.cafceb29.chunk.js",
+    "main.js.map": "/CursorEducationCourseReactPart/static/js/main.cafceb29.chunk.js.map",
     "runtime-main.js": "/CursorEducationCourseReactPart/static/js/runtime-main.e8e7de3c.js",
     "runtime-main.js.map": "/CursorEducationCourseReactPart/static/js/runtime-main.e8e7de3c.js.map",
-    "static/js/2.a24e3a63.chunk.js": "/CursorEducationCourseReactPart/static/js/2.a24e3a63.chunk.js",
-    "static/js/2.a24e3a63.chunk.js.map": "/CursorEducationCourseReactPart/static/js/2.a24e3a63.chunk.js.map",
+    "static/js/2.f074915a.chunk.js": "/CursorEducationCourseReactPart/static/js/2.f074915a.chunk.js",
+    "static/js/2.f074915a.chunk.js.map": "/CursorEducationCourseReactPart/static/js/2.f074915a.chunk.js.map",
     "index.html": "/CursorEducationCourseReactPart/index.html",
-    "precache-manifest.fadaae1d6466a8d7b3b61a0a9817448d.js": "/CursorEducationCourseReactPart/precache-manifest.fadaae1d6466a8d7b3b61a0a9817448d.js",
+    "precache-manifest.6cf9104bc93b669e5389a4da0fc5f36b.js": "/CursorEducationCourseReactPart/precache-manifest.6cf9104bc93b669e5389a4da0fc5f36b.js",
     "service-worker.js": "/CursorEducationCourseReactPart/service-worker.js",
     "static/css/main.2bf628a9.chunk.css.map": "/CursorEducationCourseReactPart/static/css/main.2bf628a9.chunk.css.map",
-    "static/js/2.a24e3a63.chunk.js.LICENSE.txt": "/CursorEducationCourseReactPart/static/js/2.a24e3a63.chunk.js.LICENSE.txt",
+    "static/js/2.f074915a.chunk.js.LICENSE.txt": "/CursorEducationCourseReactPart/static/js/2.f074915a.chunk.js.LICENSE.txt",
     "static/media/Outer_space.svg": "/CursorEducationCourseReactPart/static/media/Outer_space.797bb368.svg",
     "static/media/laravel_and_vue.svg": "/CursorEducationCourseReactPart/static/media/laravel_and_vue.5f2e9078.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e8e7de3c.js",
-    "static/js/2.a24e3a63.chunk.js",
+    "static/js/2.f074915a.chunk.js",
     "static/css/main.2bf628a9.chunk.css",
-    "static/js/main.72f9cd61.chunk.js"
+    "static/js/main.cafceb29.chunk.js"
   ]
 }
